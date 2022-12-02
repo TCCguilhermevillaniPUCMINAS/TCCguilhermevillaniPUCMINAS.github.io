@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Villans-game</title>
+  </head>
+  
+  <script src="main.js"></script>
+
+  <body>
+    <header>
+      <div ><a href=""> <img class="logo" src="logo.png" alt="" /> </a></div>
+
+      <div>
+        <ul>
+          <li>Destaques <img src="" width="20px" /></li>
+
+          <li>Lançamentos <img src="" width="20px" /></li>
+
+          <li>Plataformas <img src="" width="20px" /></li>
+
+          <li>Publish</li>
+        </ul>
+      </div>
+      <input type="text"  placeholder=" O que vc está procurando" /> 
+
+ 
+    </header>
+
+    <div class="txt-ALUNO">      GUILHERME VILLANI MARINHO - SISTEMAS DE INFORMAÇÃO - MATRICULA: 595742    </div>
+    <div class="txt-ALUNO">      
+      CLIQUE EM CADA TITULO EM AZUL PARA IR À PAGINA DE DETALHES    
+      <br>
+      <br>
+
+      O loading é funcional, e espera a finalização da requisição à API   
+     </div>
+
+    <div class="txt-destaque">O MELHOR AVALIADO:</div>
+    <main class="destaque" id="main">
+      <div class="topIMG">
+        <img id ="topGameIMG" alt="BEST GAME" width="100%" height="100%">
+      </div>
+      <div class="destaquegame">
+        <h1 id="topGameTitle"></h1>
+        <div class="topics">        
+          <h3><b> Lançamento:</b></h3>
+          <p id="topLaunch"></p>
+        </div>  
+        <div class="topics">
+          <h3><b> Genero: </b></h3>
+          <p id="topGenres"></p>
+        </div>
+        <div class="avaliacao">
+          <h3><b> Avaliação:</b></h3>
+          <h2 class="nota"><p id="TopAbout"></p>
+          </h2>
+        </div>
+      </div>
+    </main>
+
+    <div class="lanmento-plataformas-publlishers-hearders ">
+      <div class="select">
+        <select class="Ordem">
+          <option selected disabled>Ordem: Poularity</option>
+          <option value="Popularidade">Popularidade</option>
+          <option value="nome">Ordem Alfabetica</option>
+        </select>
+        <select class="genero">
+          <option selected disabled>Genero: Todos</option>
+          <option value="Todos">Todos</option>
+          <option value="action">Action</option>
+          <option value="Adventure">Adventure</option>
+          <option value="Indie">Indie</option>
+          <option value="Shooter">Shooter</option>
+        </select>
+      </div>
+    </div>
+
+
+    <main class="lancamento-plataforma">
+      <div id="gamesLine" class="gamesLine">
+      </div>
+
+      
+    </div>
+      <form>
+      <input  class="buttom" type="submit" value="Carregar mais lançamentos" href=""></a>
+    </form>
+    <div class="lanmento-plataformas-publlishers-hearders ">
+      <h1 class="lancamento-txt">Plataformas</h1> </div>
+      <div class="plataforms-publishers">
+        <div class="console-pc-mobile-publishers">
+       <h2> Consoles</h2>
+    <b>    <img src="console.png" alt="consoles" width="80%"/></b>
+       <h3> Principais jogos</h3>
+        <li> Call of Duty</li>
+        <li>FIFA </li>
+        <li>Nba 2k21 </li>
+
+      </div>
+       <div class="console-pc-mobile-publishers">
+        <h2> PC</h2>
+     <b><img src="pc.png" alt="pc" width="80%"/> </b>   
+        <h3> Principais jogos</h3>
+         <li> Gta V</li>
+         <li> Valorant </li>
+         <li>Minecraft  </li>
+ 
+       </div>
+       <div class="console-pc-mobile-publishers">
+        <h2> Mobile</h2>
+       <b>  <img src="mobile.png" alt="mobile" width="80%"/></b>
+        <h3> Principais jogos</h3>
+         <li> Subway Surfers </li>
+         <li>Pubg mubile</li>
+         <li> Among Us </li>
+ 
+       </div>
+       
+      </div>
+    </div>
+      
+      <form>
+        <input class="buttom"  type="submit" value="Carregar mais plataformas" href=""></a>
+      </form>
+      
+
+    <div class="publlishers-hearders " >
+      <h1 class="lancamento-txt">Publishers</h1> </div>
+      <div class="publishers">
+        <div class="console-pc-mobile-publishers">
+       <h2> Activision</h2>
+      <b> <img src="activision.png" alt="Activision" width="200px"/></b> 
+       <h3> Principais jogos</h3>
+        <li> Call of Duty: Modern Warfare</li>
+        <li>Time Commando </li>
+        <li> Crash Team Racing </li>
+
+      </div>
+       <div class="console-pc-mobile-publishers">
+        <h2> Rockstar</h2>
+       <b><img src="rockstar.png" alt="rockstar" width="200px"/> </b> 
+        <h3> Principais jogos</h3>
+         <li> Gta V</li>
+         <li> Red Dead Redemption 2. </li>
+         <li> Buly  </li>
+ 
+       </div>
+       <div class="console-pc-mobile-publishers">
+
+        <h2> EA_play</h2>
+
+        <b> <img src="ea.png" alt="EA_play" width="200px"/> </b>   
+
+        <h3> Principais jogos</h3> 
+
+         <li> Fifa </li>
+         <li>Battlefield </li>
+         <li> The Sims  </li>
+ 
+       </div>
+       <form>
+        <input  class="buttom" type="submit" value="Carregar mais publishers" href=""></a>
+      </form>
+      </div>
+      
+   
+    </main>
+
+   <footer>
+<div class="SOBRE">
+    <div class="sobre"> <h1>Sobre </h1> </div>
+
+  <div class="txt-sobre"> Lorem ipsum dolor sit amet. In quia nihil nam deserunt consequatur ad autem sint est omnis distinctio aut velit facere 
+    in provident voluptas qui maxime molestiae. Sed magni et consequuntur pariatur non obcaecati impedit sed quaerat quae!
+
+    At suscipit sapiente ex eaque vitae non doloremque accusamus a voluptatum quidem ut deleniti reprehenderit aut excepturi consequatur 
+    aut voluptas eveniet. Ut incidunt voluptatem in eaque tempore At dignissimos ullam in quisquam sint ex enim exercitationem ea facilis dolores ut internos ducimus. Aut assumenda saepe qui quisquam quia vel sint voluptatum aut galisum assumenda ut voluptate consequatur. 
+    Nam sunt cumque aut illo reiciendis non optio magnam aut blanditiis laboriosam ut odit voluptatibus est ipsam Quis.
+  </div>
+</div>
+    
+<div class="EDITORIAL">  
+      <div class="Editorial"> <h1>Editorial </h1> </div>
+      
+    <div class="dads">     <img src="dads.png" width="30%">      <h3> Redação:</h3>
+      Guilherme Villani
+    </div>
+
+    <div class="dads">     <img src="dads.png" width="30%">      <h3> Pesquisa:</h3>
+      Guilherme Villani
+    </div>
+
+    <div class="dads">     <img src="dads.png" width="30%">      <h3> Gerente:</h3>
+      Guilherme Villani
+    </div>
+   
+</div> 
+
+
+
+   </footer>
+   
+   <div class="rds-sociais"> <h1> redes sociais</h1>
+  <div class="imgs">
+    
+    <div> <a href="https://twitter.com/home?lang=pt" target="_blank"><img src="twiter.png" alt="" width="40px"></div> </a>
+    <div> <a href="https://www.instagram.com/?hl=pt-br"target="_blank"> <img src="insta.png" alt=""  width="40px"></div></a>
+    <div> <a href="https://www.facebook.com" target="_blank"> <img src="facebook.png" alt="" width="50px"></div></a>
+  
+</div>
+</div>
+    
+<div class="footeer">
+  <div class="footeer-txt">
+  <h2> Copyright 2020 - Disciplina de de tnte«aces Web • ICE' PUC  </h2>
+</div>
+
+<div class="footerr-logo"> <img class="logo2" src="logo.png" alt="" width="200px">  </div>
+
+
+</div>
+  </body>
+</html>
